@@ -60,14 +60,14 @@ To overcome this problem, you have to have following prerequisites:
 - [A Biometric travel document](https://en.wikipedia.org/wiki/Biometric_passport);
 - A valid Mastercard or Visa.
 
-(NOTE) Google says that many people are having issues with SMS verification, so this method might not be working now. In this case the only thing left is to wait.
+(NOTE) Google says that many people are having issues with SMS verification, so this method might not be working now. In this case the only thing left is to wait for this issue to resolve.
 
 If you have everything, follow the next steps:
 1. Install the AliPay app;
 2. Register inside the AliPay app:
     - Verify your mobile phone;
     - If/when asked, scan your biometric document to prove identity;
-    - When asked, set up the ping. **Warning** it is very important not to forget any of the codes, as you'll irreversibly lose access to your account;
+    - When asked, set up the PIN. **Warning** it is very important not to forget any of the codes, as you'll irreversibly lose access to your account;
 3. On the main page, tap on a search bar, search for "NFC". An icon with "NFC" should appear, tap on it;  
     <p float="left">
     <img src="./assets/ALIPAY.SEARCH.webp" alt="![Searching for NFC in AliPay]" width=200px>
