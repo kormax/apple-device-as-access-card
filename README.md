@@ -66,27 +66,40 @@ If you have everything, follow the next steps:
 1. Install the AliPay app;
 2. Register inside the AliPay app:
     - Verify your mobile phone;
-    - If/when asked, scan your biometric document to prove identity;
     - When asked, set up the PIN. **Warning** it is very important not to forget any of the codes, as you'll irreversibly lose access to your account;
-3. On the main page, tap on a search bar, search for "NFC". An icon with "NFC" should appear, tap on it;  
+3. Verify your identity:  
+    1. Select "Account" tab;
+    2. Tap on the profile avatar;
+    3. Select "My Namecard";
+    4. Press "Verify identity";
+    5. Choose "Complete verification".  
+
+    After that, you'll be presented with a couple of possible age verification methods.  
+    Depending on your country one of them may work for you.
+    <p float="left">
+    <img src="./assets/ALIPAY.IDENTITY.VERIFICATION.SELECT.METHOD.webp" alt="![Age verification method selection]" width=200px>
+    <img src="./assets/ALIPAY.IDENTITY.VERIFICATION.READ.DOCUMENT.webp" alt="![Scanning a biometric pasport]" width=200px>
+    </p> 
+    <sub>Thanks to @ihrapsa for providing images and directions for this step</sub>
+4. On the main page, tap on a search bar, search for "NFC". An icon with "NFC" should appear, tap on it;  
     <p float="left">
     <img src="./assets/ALIPAY.SEARCH.webp" alt="![Searching for NFC in AliPay]" width=200px>
     <img src="./assets/ALIPAY.SEARCH.NFC.ENTRY.webp" alt="![Searching for NFC in AliPay]" width=200px>
     <img src="./assets/ALIPAY.SEARCH.NFC.RESULTS.webp" alt="![NFC search results in AliPay]" width=200px>
     </p>  
-4. Follow the onboarding screens. In case you're unsure about the UI elements, make a screenshot and feed it into a translator app;
+5. Follow the onboarding screens. In case you're unsure about the UI elements, make a screenshot and feed it into a translator app;
     <p float="left">
     <img src="./assets/ALIPAY.NFC.ONBOARDING.webp" alt="![Onboarding screen]" width=200px>
     </p>  
-5. When reaching the screen with card selection, choose any. Beware that some have different minimum topup amounts.
+6. When reaching the screen with card selection, choose any. Beware that some have different minimum topup amounts.
     <p float="left">
     <img src="./assets/ALIPAY.NFC.SELECTION.webp" alt="![Selecting a card]" width=200px>
     </p>  
-6. After selection, choose topup amount, pay for a card. Go to the next screen;
+7. After selection, choose topup amount, pay for a card. Go to the next screen;
     <p float="left">
     <img src="./assets/ALIPAY.NFC.PURCHASE.webp" alt="![Selecting a card]" width=200px>
     </p>  
-7. An apple wallet popup should trigger, inviting you to provision the new card. Follow the steps as usual.
+8. An apple wallet popup should trigger, inviting you to provision the new card. Follow the steps as usual.
 
 Having done all these steps, you should have a magic card in your Wallet. Use as you will. Good luck!
 
