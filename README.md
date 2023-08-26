@@ -14,10 +14,10 @@ In case you've already tried researching this topic, feel free to skip the **Int
 
 Many people have been beating their heads against the wall trying to use their Apple device as an access card.  
 
-Sadly, due to a closed NFC and Wallet ecosystem, such a thing is not possibe to do on your own without any explicit support on the behalf of Apple and Access system manufacturer.  
-Thankfuly, as of now this market request is starting to be fulfilled by the likes of Google, Apple with cooperation of Access reader manufacturers like [HID](https://campaigns.hidglobal.com/employee-badge), [Brivo](https://www.brivo.com/applewallet/) and [WaveLynx](https://www.wavelynxtech.com/credentials/apple-wallet), but ubiquitous support is far from reality. 
+Sadly, due to closed NFC and Wallet ecosystem, such a thing is not possibe to do on your own without any explicit support on the behalf of Apple and access system provider.  
+Thankfuly, as of now this market request is starting to be fulfilled by the likes of Google, Apple with cooperation of access system manufacturers and providers like HID, Brivo, Salto, WaveLynx, Nedap, Kisi, Assa Abloy, but ubiquitous support is far from reality, moreover those official solutions require manual approval, incur additional (in some cases absolutely cuckoo $$$) fees. 
 
-The search for a potential bypass had lead some people into the topics of [VAS](https://github.com/kormax/apple-vas), [ECP](http://github.com/kormax/apple-enhanced-contactless-polling) and (inexisting in IOS) HCE, but those solutions don't work with existing reader infrastructures.
+The search for a potential bypass had lead some people into the topics of [VAS](https://github.com/kormax/apple-vas), [ECP](http://github.com/kormax/apple-enhanced-contactless-polling) and HCE API (which actually exists in IOS, but is private, used by VAS), but those solutions don't work with existing reader infrastructures.
 
 # The solution
 
@@ -25,7 +25,7 @@ May be deemed more elegant than some people could expect.
 It lies in one of the Chinese transit card brands, called "China T-Union", that is officially supported by Apple Wallet.
 
 <p float="left">
-<img src="./assets/TUNION.WALLET.webp" alt="![T-Union card in wallet]" width=250px>
+<img src="./assets/WALLET.INFO.TUNION.webp" alt="![T-Union card in wallet]" width=250px>
 </p>  
 
 
@@ -99,9 +99,12 @@ If you have everything, follow the next steps:
     <p float="left">
     <img src="./assets/ALIPAY.NFC.PURCHASE.webp" alt="![Selecting a card]" width=200px>
     </p>  
-8. An apple wallet popup should trigger, inviting you to provision the new card. Follow the steps as usual.
+8. Apple Wallet UI should appear, inviting you to provision the new card. Follow the steps as usual.
+    <p float="left">
+    <img src="./assets/WALLET.PROVISIONING.TUNION.webp" alt="![Provisioning T-Union card into wallet]" width=250px>
+    </p>  
 
-Having done all these steps, you should have a magic card in your Wallet. Use as you will. Good luck!
+Having done all these steps, you should have a magic card in your Wallet. Use as you see fit. Good luck!
 
 
 # Notes
@@ -113,9 +116,13 @@ Having done all these steps, you should have a magic card in your Wallet. Use as
 * Resources that helped with research:
     - Access systems that support the lifehack:
         - [UniFi Access](https://wiki.ui.com/2-0/docs/ua-nfc-cards) - with the "UniFi Access Credentials Only" setting disabled;
-    - Officially supported access system brochures:
+    - Officially supported access systems:
         - [HID](https://campaigns.hidglobal.com/employee-badge);
         - [Brivo](https://www.brivo.com/applewallet/);
         - [WaveLynx](https://www.wavelynxtech.com/credentials/apple-wallet);
+        - [Salto](https://support.saltosystems.com/nebula/user-guide/keyholder/apple-wallet-keys/);
+        - [Assa Abloy](https://www.assaabloyglobalsolutions.com/en/hospitality-solutions/mobile-access-for-hospitality/apple-wallet);
+        - [Nedap](https://www.nedapsecurity.com/news-blog/nedap-teams-up-with-apple-access-badge-in-apple-wallet-coming-soon/);
+        - [Kisi](https://www.getkisi.com/guides/apple-wallet-access).
     - Other links:
         - [Biometric documents](https://en.wikipedia.org/wiki/Biometric_passport).
