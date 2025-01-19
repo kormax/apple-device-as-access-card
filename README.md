@@ -124,5 +124,6 @@ Having done all these steps, you should have a magic card in your Wallet. Use as
         - [Assa Abloy](https://www.assaabloyglobalsolutions.com/en/hospitality-solutions/mobile-access-for-hospitality/apple-wallet);
         - [Nedap](https://www.nedapsecurity.com/news-blog/nedap-teams-up-with-apple-access-badge-in-apple-wallet-coming-soon/);
         - [Kisi](https://www.getkisi.com/guides/apple-wallet-access).
+        - [Verkada](https://www.verkada.com/blog/employee-badges-in-apple-wallet/)
     - Other links:
         - [Biometric documents](https://en.wikipedia.org/wiki/Biometric_passport).
